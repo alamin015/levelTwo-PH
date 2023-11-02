@@ -3,8 +3,9 @@
 ## Typescript --> First Module
 
 > [!IMPORTANT]
-> explicit --> it describes something that is very clear and without vagueness or ambiguity
-> implicit --> implicit describes things in which a meaning is implied or hinted at rather than being expressed directly.
+
+- explicit --> it describes something that is very clear and without vagueness or ambiguity
+- implicit --> implicit describes things in which a meaning is implied or hinted at rather than being expressed directly.
 
 ```ts
 {
