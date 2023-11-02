@@ -3,6 +3,7 @@
 ## Typescript --> First Module
 
 > [!IMPORTANT]
+> question and answer
 
 - explicit --> it describes something that is very clear and without vagueness or ambiguity
 - implicit --> implicit describes things in which a meaning is implied or hinted at rather than being expressed directly.
@@ -33,4 +34,22 @@
   //   Tuple
   const student: [string, number] = ["almain", 67]; //Tuple example important
 }
+```
+
+> [!IMPORTANT]
+> Object, Optional Type & Literal Type
+
+```ts
+const user: {
+  companyName: "programming hero"; // literal Type
+  firstName: string;
+  middleName?: string; // optional type
+  readonly lastName: string;
+} = {
+  companyName: "programming hero",
+  firstName: "abdul",
+  lastName: "halim",
+};
+
+//   user.lastName = "jashgdahdag" there is an error bcz readonly property cann't be changed
 ```
